@@ -1,6 +1,6 @@
 ## Build image with Dockerfile
 
-docker build -t pythonforapp:2.1 -f Dockerfile .
+>>docker build -t pythonforapp:2.1 -f Dockerfile .
 
 ## Let's raise a Container using this image we have created.
 
