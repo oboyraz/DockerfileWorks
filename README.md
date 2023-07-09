@@ -4,15 +4,15 @@
 
 ## Let's raise a Container using this image we have created.
 
-docker run -d -p 80:80 pythonforapp:2.1
+>>docker run -d -p 80:80 pythonforapp:2.1
 
 ## Let's login to the container with the docker exec command
 
-docker exec -it <container_id> bash
+>>docker exec -it <container_id> bash
 
 ## To list container
 
-docker ps -a
+>docker ps -a
 
 ## To list images
 
