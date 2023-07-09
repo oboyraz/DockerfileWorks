@@ -1,10 +1,10 @@
 ## Build image with Dockerfile
 
->docker build -t pythonforapp:2.1 -f Dockerfile .
+>docker build -t pythonapp:1.1 -f Dockerfile .
 
 ## Let's raise a Container using this image we have created.
 
->docker run -d -p 80:80 pythonforapp:2.1
+>docker run -d -p 80:80 pythonapp:1.1
 
 ## Let's login to the container with the docker exec command
 
