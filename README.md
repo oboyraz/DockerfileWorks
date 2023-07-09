@@ -20,7 +20,7 @@
 
 ## To save Docker image
 
->docker save -o imaj.tar pythonforapp:2.1
+>docker save -o imaj.tar pythonapp:1.1
 
 Copy the saved Docker image to the target platform. You can use different methods for this process, such as FTP, SFTP, SSH, USB stick.
 
@@ -30,11 +30,11 @@ Copy the saved Docker image to the target platform. You can use different method
 
 ## You can use the following command to start a Docker container using the image
 
->docker run pythonforapp:2.1
+>docker run pythonapp:1.1
 
 ## You can use the following command to delete the image
 
->docker rmi pythonapp:1.2
+>docker rmi pythonapp:1.1
 
 ## You can use the docker logs command to see the container's outputs
 
