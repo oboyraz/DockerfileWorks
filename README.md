@@ -1,6 +1,8 @@
 ## Build image with Dockerfile
 
->docker build -t pythonapp:1.1 -f Dockerfile .
+```bash
+docker build -t pythonapp:1.1 -f Dockerfile .
+```
 
 ## Let's raise a Container using this image we have created.
 
