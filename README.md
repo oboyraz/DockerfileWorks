@@ -4,6 +4,12 @@
 docker build -t pythonapp:1.1 -f Dockerfile .
 ```
 
+## Create Docker Volume
+
+```bash
+docker volume create poyrazVolume
+```
+
 ## Let's raise a Container using this image we have created.
 
 ```bash
