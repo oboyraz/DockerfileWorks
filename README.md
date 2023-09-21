@@ -13,7 +13,7 @@ docker volume create poyrazVolume
 ## Docker Volume Attach to Container
 
 ```bash
-docker container run --name poyrazContainer -v poyrazVolume:/Volume alpine sh
+docker container run --name poyrazContainer -v poyrazVolume:/Volume -it alpine sh
 ```
 
 ## Let's raise a Container using this image we have created.
